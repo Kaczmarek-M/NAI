@@ -1,5 +1,5 @@
 """Adrian Matyszczak - s19850
-   Michał Kaczmarek - s18464
+   Michał Kaczmarek - s18464 
    GRA NAI - stara chińska gra (nazywana tam Jianshizi, czyli 'gra w zabieranie kamieni') dla dwóch osób z użyciem 15 do 60 pionków.
    Zasady:
    -Pionki dzieli się na kupki dowolnej, różnej wielkości.
