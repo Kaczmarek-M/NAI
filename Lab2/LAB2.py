@@ -10,7 +10,7 @@ from skfuzzy import control as ctrl
 
 """
     Za pomocą zmiennej poprzedzającej dla rozmytego systemu sterowania ustalamy pozycję w rankingu
-    danego zawodnika, a za pomocą zmiennej następczej szacujemy potencjał zespołu.
+    danego zawodnika, a za pomocą zmiennej następczej szacujemy potencjał zespołu. 
 """
 
 receiver = ctrl.Antecedent(np.arange(0, 213, 1), 'receiver')
