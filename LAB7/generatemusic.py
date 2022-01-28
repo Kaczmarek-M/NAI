@@ -1,5 +1,5 @@
 """Adrian Matyszczak - s19850
-   Michał Kaczmarek - s18464
+   Michał Kaczmarek - s18464 
 
    """
 import collections
