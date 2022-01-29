@@ -1,5 +1,21 @@
 """Adrian Matyszczak - s19850
-   Michał Kaczmarek - s18464 
+   Michał Kaczmarek - s18464
+   
+   Generowanie własnego utworu muzycznego
+   Dane do uczenia z repozytorium - https://storage.googleapis.com/magentadata/datasets/maestro/v2.0.0/maestro-v2.0.0-midi.zip'    -Przetwarzanie Plików MIDI
+    - Generowanie PrettyMIDI
+    - Do trenowania modelu uzywamy zmiennych, pitch, jakość dzwięku jako nr nuty MIDI, duration(czas jak długo nuta będzie grana w sekundach i jest różnicą medzy czasem zakończenia nuty a czasem rozpoczęcia nuty.)
+    - Wyodrębione nuty z przykładowego pliku MIDI.
+    - Interpretacja nazw nut może być łatwiejsza niż ich wysokości
+    - Aby zwizualizować utwór muzyczny, wykreślamy wysokość nuty
+    - Sprawdzamy rozkład każdej zmiennej nuty
+    - generujemy własny plik MIDI z listy nut, korzystając z poniższej funkcji.
+    - Nauczamy model na partiach sekwencji nut
+    - Testowanie funkcji model.evaluate
+    - Trenowanie Modeli
+    - funkcja predict_next_note generuje jedną nutę z sekwencji nut
+    - dodawanie wymiaru partii
+    - Początkowa sekwencja nut; pitch jest znormalizowana do treningu
 
    """
 import collections
